@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav>
+    <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+</nav> 
+
+<div class="container">
+    <div class="songlist">
+         <h1>Liked Songs</h1>
+         <div class="songitemcontainer">
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Top Flame</span>
+                <span class="songlistplay"><span class="timestamp">02:43 <i id="1" class="far fa-1x songItemPlay fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Fun</span>
+                <span class="songlistplay"><span class="timestamp">04:07 <i id="2" class="far fa-1x songItemPlay fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Closer</span>
+                <span class="songlistplay"><span class="timestamp">04:13 <i id="3" class="far fa-1x songItemPlay fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Peaches</span>
+                <span class="songlistplay"><span class="timestamp">03:11 <i id="4" class="far fa-1x songItemPlay fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Softly</span>
+                <span class="songlistplay"><span class="timestamp">02:56 <i id="5" class="far fa-1x songItemPlay fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Bam Lehri</span>
+                <span class="songlistplay"><span class="timestamp">02:04 <i id="6" class="far fa-1x songItemPlay fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Pawansut</span>
+                <span class="songlistplay"><span class="timestamp">04:34 <i id="7" class="far fa-1x songItemPlay fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Strangers</span>
+                <span class="songlistplay"><span class="timestamp">03:04 <i id="8" class="far fa-1x songItemPlay fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Sweet But Psycho</span>
+                <span class="songlistplay"><span class="timestamp">03:27 <i id="9" class="far fa-1x songItemPlay fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Sea of Problems</span>
+                <span class="songlistplay"><span class="timestamp">01:50 <i id="10" class="far fa-1x songItemPlay fa-circle-play"></i></span></i></span>
+            </div>
+         </div>
+    </div>
+    <div class="songbanner"></div>
+</div>
+
+<div class="bottom">
+    <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+    <div class="icons">
+        <!-- fontawesome icons -->
+       
+        <i class="far fa-3x fa-solid fa-backward-step " id="previous"></i>
+        <i class="far fa-3x fa-play-circle" id="masterplay"></i>
+        <i class="far fa-3x fa-solid fa-forward-step" id="next"></i>
+    </div>
+    <div class="songinfo">
+        <img src="playing.gif" width="42px" alt="" id="gif"><span id="masterSongName">Top Flame</span>
+    </div>
+</div>
+<script src="https://kit.fontawesome.com/c76f6c5229.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
